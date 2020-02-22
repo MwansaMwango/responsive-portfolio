@@ -1,0 +1,45 @@
+
+.body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.site-body {
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: repeat-y;
+ 
+}
+
+.site-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+
+@media screen and (min-width: 640px) {
+  #navBrandBig {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #navBrand {
+    display: none !important;
+  }
+  #navCentre {
+    justify-content: center;
+  }
+  #profPic {
+    display: inline-block;
+  }
+}
+
