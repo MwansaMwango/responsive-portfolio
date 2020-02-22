@@ -5,8 +5,8 @@ Webiste contacts three simple pages "About', 'Portfolio' and 'Contact'. For priv
 
 Mobile screenshots of pages:
 
-![About](https://github.com/MwansaMwango/responsive-portfolio/about-page.jpg)
+![About](https://github.com/MwansaMwango/responsive-portfolio/blob/master/About-page.JPG?raw=true)
 
-![Portfolio](https://github.com/MwansaMwango/responsive-portfolio/portfolio-page.jpg)
+![Portfolio](https://github.com/MwansaMwango/responsive-portfolio/blob/master/Portfolio-page.JPG?raw=true)
 
-![Contact](https://github.com/MwansaMwango/responsive-portfolio/contact-page.jpg)
+![Contact](https://github.com/MwansaMwango/responsive-portfolio/blob/master/Contact-page.JPG?raw=true)
