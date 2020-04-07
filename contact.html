@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mwansa Mwango</title>
+    <!-- Use Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Use Font Awesome, Animate, Googlr fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <!-- Use CSS -->
     <link rel="stylesheet" href="styles.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
   </head>
 
   <body class="site-body">
     <header class="site-header">
       <nav
         id="navBrandBig"
-        class="navbar navbar-expand navbar-light bg-info justify-content-center"
+        class="navbar navbar-expand navbar-bg-color  justify-content-center"
       >
         <a class="navbar-brand" href="index.html"
           ><h1><strong>Mwansa Mwango</strong></h1></a
         >
       </nav>
 
-      <nav id="navCentre" class="navbar navbar-light">
+      <nav id="navCentre" class="navbar navbar-bg-color">
         <a
           id="navBrand"
-          class=" p-3 navbar-brand bg-info justify-content-start"
+          class=" p-3 navbar-brand navbar-bg-color justify-content-start"
           href="index.html"
           ><strong>Mwansa Mwango</strong></a
         >
@@ -49,7 +50,7 @@
     <div class="container-fluid m-2">
       <div class="row">
         <!--master row-->
-        <div class="card col-md-12 col-lg-8 p-3 mr-2">
+        <div class="card  animated fadeInUp col-md-12 col-lg-8 p-3 mr-2 ">
           <h1 class="card-title">Contact</h1>
           <form>
             <div class="form-group">
@@ -86,12 +87,20 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
+        <div class="col animated bounceIn text-white">
+          <h2>
+            Let's connect!
+          </h2><br>
+          <a href="https://www.linkedin.com/in/mwansa-m-88ab3032/" target="_blank"><i class="fab fa-linkedin fa-2x mb-4"></i> LinkedIn</a><br>
+          <a href="https://github.com/MwansaMwango" target="_blank"><i class="fab fa-github-square fa-2x mb-4"></i> Github</a><br>
+        </div>
+
         <div class="col-md-12 col-lg-4"></div>
       </div>
       <!--master row-->
     </div>
-    <footer class="site-footer bg-secondary">
-      <p>Mwansa Mwango @Copyright 2020</p>
+    <footer class="site-footer">
+      <p>MWansa Mwango@Copyright 2020</p>
     </footer>
   </body>
 </html>
