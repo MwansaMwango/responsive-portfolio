@@ -1,22 +1,36 @@
 
-.body {
+.body p{
   font-family: poppins, Georgia, 'Times New Roman', Times, serif;
   height: 100%;
 }
+.img-thumbnail {
+  /* font-size: 1.rem; */
+  height: 1.5rem;
+  border: none;
+}
+.section-img {
+  box-shadow: 10px 10px 10px grey;
+}
+.navbar-bg-color {
+  color: #fff;
+  background-color: #24292e;
 
+}
 .site-body {
   background-color: lightgray;
+  background-image: url(https://lh3.googleusercontent.com/proxy/8PICd72_-iWSdj7v0qG3ig8KQDibLtlnhq8LZ4Db-ospFC1YF4p12H5tItVGnmoqlp_8bNHTBXrvAVFOo2CCn8qBpTTwLIErxSjEJCblp331xTgLYHL7DNOkBM_eBxbk6jBnqs-8eJGKRws);
   background-size: cover;
   background-repeat: repeat-y;
  
 }
 
 .site-footer {
-  position: fixed;
+  font-family: poppins;
+  color: #fff;
+  background-color: #24292e;position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
   text-align: center;
   flex: 1 0 auto;
   flex-shrink: none;
