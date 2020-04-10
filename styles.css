@@ -1,12 +1,17 @@
-.body p {
-  font-family: poppins, Georgia, "Times New Roman", Times, serif;
+.body, p, a {
+  font-family: poppins;
   height: 100%;
+
+}
+
+p.card-text {
+  font-size: 1.2rem;
 }
 .img-thumbnail {
-  /* font-size: 1.rem; */
   height: 1.5rem;
   border: none;
 }
+
 .section-img {
   box-shadow: 10px 10px 10px grey;
 }
@@ -22,8 +27,8 @@
 }
 
 .site-footer {
-  font-family: poppins;
-  color: #fff;
+    display: inline-block;font-family: poppins;
+  color: #007bff;
   background-color: #24292e;
   position: fixed;
   left: 0;
@@ -32,6 +37,8 @@
   text-align: center;
   flex: 1 0 auto;
   flex-shrink: none;
+  padding-top: 10px;
+
 }
 
 /*
