@@ -28,22 +28,24 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="site-body">
+
+    <!-- Navigation -->
     <header class="site-header">
       <nav
         id="navBrandBig"
         class="navbar navbar-expand navbar-bg-color justify-content-center"
       >
         <a class="navbar-brand" href="index.html"
-          ><h1><strong>Mwansa Mwango</strong></h1></a
+          ><h1><strong><i class="fab fa-creative-commons-remix mr-2"></i>Mwansa Mwango</strong></h1></a
         >
       </nav>
 
       <nav id="navCentre" class="navbar navbar-bg-color">
         <a
           id="navBrand"
-          class="p-3 navbar-brand navbar-bg-color justify-content-start"
+          class="navbar-brand navbar-bg-color justify-content-start"
           href="index.html"
-          ><strong><i class="fab fa-css-alt"></i>Mwansa Mwango</strong></a
+          ><strong class="display-4"><i class="fab fa-creative-commons-remix mr-2"></i>Mwansa Mwango</strong></a
         >
         <ul class="nav navbar">
           <li class="nav-item">
@@ -58,13 +60,16 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Site Main -->
     <div class="site-main">
       <div class="container-fluid">
-        <div class="row my-4 just">
+        <div class="row my-4">
           <!--About row-->
           <div class="col-12 col-md-12 col-lg-8">
-            <div class="card animated fadeInRight pt-2">
-              <h1 class="card-title ml-4">About Me</h1>
+            <div class="card animated fadeInRight pt-2 ">
+              <h1 class="card-title ml-4"><i class="fab fa fa-address-card mr-2"></i>About Me</h1>
+      
               <div class="card-body">
                 <div id="profPic">
                   <img
@@ -74,14 +79,16 @@
                     class="mr-4 section-img"
                   />
                 </div>
-                <p class="card-text">
+                <p class="card-text text-justify">
                   Full Stack Developer with a background in project engineering
                   looking to create innovative solutions using Mongo DB,
                   Express, React and Node.js stack.
-                  <br /><br />
+                <br>
+                </p>
+                <p class="text-justify font-italic">
                   Completed an intensive coding bootcamp at the University of
                   Western Australia earning a Full Stack Web Developement
-                  Certificate with three minimum viable product (MVP) apps.
+                  Certificate with <span><a href="portfolio.html">three</a></span> minimum viable product (MVP) apps.
                 </p>
               </div>
             </div>
@@ -93,12 +100,14 @@
         </div>
         <!--About row-->
 
-        <div class="row mb-4">
+        <div class="row">
           <!--Skills row-->
           <div class="col-12 col-md-12 col-lg-8">
             <div class="card animated fadeInLeft pt-2">
-              <h1 class="card-title ml-4 text-justify">Skills</h1>
-              <div class="card-body">
+              <h1 class="card-title ml-4"><i class="fab fa fa-graduation-cap mr-2"></i>Skills
+              </h1>
+               
+                 <div class="card-body">
                 <div id="skillsImg">
                   <img
                     src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -107,10 +116,17 @@
                     class="mr-4 section-img"
                   />
                 </div>
-                <p class="card-text">
+
+                <p class="card-text text-justify">
                   Web development concepts and forming criteria to develop
-                  individual and group projects.
+                  individual and group projects. 
+                  <a
+                  href="https://drive.google.com/open?id=1GVAOtR6z9MPfUKEDJYRLVEsIey0Ov7n-"
+                  class="text-right"
+                  ><i class="far fa-file-pdf mx-2"></i>Resume PDF</a
+                  > 
                 </p>
+                <hr>
                 <div class="skillsList">
                   <span
                     ><i
@@ -178,27 +194,20 @@
                       class="img-thumbnail animated lightSpeedIn delay-1s"
                     />MySQL</span
                   >
-                  <h5>
-                    <hr>
-                    <a
-                      href="https://drive.google.com/open?id=1GVAOtR6z9MPfUKEDJYRLVEsIey0Ov7n-"
-                      class=""
-                      ><i class="far fa-file-pdf m-2"></i>Resume PDF</a
-                    >
-                  </h5>
+
                 </div>
               </div>
             </div>
           </div>
           <!--col-md-9-->
           <div class="col-12 col-md-12 col-lg-4">
-            <!--col-md-3-- Blank placeholder-->
+            <!--col-md-3-- Blank placeholder for future deployment-->
           </div>
         </div>
         <!--Skills row-->
       </div>
     </div>
-
+    <!-- Site footer -->
     <footer class="site-footer">
       <p>Mwansa Mwango @Copyright 2020</p>
     </footer>
